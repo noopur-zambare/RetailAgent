@@ -9,6 +9,8 @@ It combines:
 - 📈 Retail analytics (monthly + annual Statistics Canada Data)
 - 💬 Chat-based interface (Streamlit)
 
+## User Interface
+<img width="1412" height="665" alt="ui" src="https://github.com/user-attachments/assets/dfc90c41-72de-4bc4-9f46-191ffc520b71" />
 
 ## Features
 - Ask questions in natural language about Canadian retail trends
