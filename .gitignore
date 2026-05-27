@@ -1,0 +1,10 @@
+# environment variables
+.env
+
+# data
+/data
+
+# virtual environment
+/mcp-env
+
+/__pycache__
