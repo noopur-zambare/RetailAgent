@@ -133,8 +133,8 @@ Answer:
             model=self.model_name,
             contents=prompt,
             config=types.GenerateContentConfig(
-                temperature=0.3,
-                max_output_tokens=1024,
+                temperature=0,
+                max_output_tokens=64000,
             ),
         )
 

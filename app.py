@@ -26,7 +26,7 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-prompt = st.chat_input("Ask about retail data")
+prompt = st.chat_input("Ask about retail data and trends")
 
 if prompt:
     st.session_state.messages.append(
