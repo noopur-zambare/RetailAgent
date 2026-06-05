@@ -1,5 +1,6 @@
 # environment variables
 .env
+.deepseek/
 
 # data
 /data
