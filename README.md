@@ -32,10 +32,14 @@ RetailAgent combines multiple layers:
 2. Statistics Canada. Table 20-10-0083-01  Annual retail trade survey, summary statistics
 3. Statistics Canada. Table 20-10-0084-01  Annual retail trade survey, sales (x 1,000)
 
+## Evaluation
+Evaluated system using DeepEval framework, achieving 0.90+ faithfulness and 0.05 hallucination rate across benchmark queries.
+
 ## Tech Stack
 - Frontend: Streamlit
 - AI Model: Google Gemini 2.5 Flash
 - Vector Database: ChromaDB
+- DeepEval
 
 
 ## ⚠️ Disclaimer

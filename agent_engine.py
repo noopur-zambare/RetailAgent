@@ -138,4 +138,4 @@ Answer:
             ),
         )
 
-        return response.text
+        return {"answer": response.text, "context": context_docs}
