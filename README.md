@@ -57,6 +57,12 @@ OPENAI_API_KEY=''
 streamlit run app.py
 ```
 
+#### 4. Run Evaluation
+
+```bash
+python run_eval.py
+```
+
 ## Evaluation
 Evaluated system using DeepEval framework, achieving 0.90+ faithfulness and 0.05 hallucination rate across benchmark queries.
 
