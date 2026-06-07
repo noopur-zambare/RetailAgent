@@ -32,6 +32,31 @@ RetailAgent combines multiple layers:
 2. Statistics Canada. Table 20-10-0083-01  Annual retail trade survey, summary statistics
 3. Statistics Canada. Table 20-10-0084-01  Annual retail trade survey, sales (x 1,000)
 
+## Running
+
+#### 1. Install dependencies
+
+```bash
+python -m venv mcp-env
+source mcp-env/bin/activate
+pip install streamlit sqlite3 chromadb google.genai deepeval
+```
+
+#### 2. Set environment variables
+
+Create a `.env` file:
+
+```
+GOOGLE_API_KEY=''
+OPENAI_API_KEY=''
+```
+
+#### 3. Launch the UI
+
+```bash
+streamlit run app.py
+```
+
 ## Evaluation
 Evaluated system using DeepEval framework, achieving 0.90+ faithfulness and 0.05 hallucination rate across benchmark queries.
 
