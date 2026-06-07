@@ -1,11 +1,15 @@
 # environment variables
 .env
-.deepseek/
+.deepeval/
 
 # data
 /data
 
 # virtual environment
-/mcp-env
+/mcp-env/
 
-/__pycache__
+# system files
+.DS_Store
+
+# python cache
+__pycache__/
