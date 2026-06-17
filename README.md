@@ -28,11 +28,7 @@ RetailAgent combines multiple layers:
 - **Streamlit UI** - Provides chat-based user interaction  
 
 ## Datasets
-<<<<<<< Updated upstream
-Datasets (converted to SQL database using SQLite)
-=======
 All datasets were preprocessed and stored in a SQLite relational database to enable efficient querying and integration across sources.
->>>>>>> Stashed changes
 1. Statistics Canada. Table 20-10-0056-02  Monthly retail trade sales by industry (x 1,000)
 2. Statistics Canada. Table 20-10-0083-01  Annual retail trade survey, summary statistics
 3. Statistics Canada. Table 20-10-0084-01  Annual retail trade survey, sales (x 1,000)
