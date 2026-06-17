@@ -37,9 +37,9 @@ RetailAgent combines multiple layers:
 #### 1. Install dependencies
 
 ```bash
-python -m venv mcp-env
-source mcp-env/bin/activate
-pip install streamlit sqlite3 chromadb google.genai deepeval
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 #### 2. Set environment variables

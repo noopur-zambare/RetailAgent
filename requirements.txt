@@ -1,0 +1,6 @@
+chromadb
+sqlite3
+deepeval
+google.genai 
+langchain-mcp-adapters
+streamlit
